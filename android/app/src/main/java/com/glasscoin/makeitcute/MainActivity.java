@@ -1,4 +1,4 @@
-package app.makeitcute;
+package com.glasscoin.makeitcute;
 
 import com.getcapacitor.BridgeActivity;
 

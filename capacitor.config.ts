@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'app.makeitcute',
+  appId: 'com.glasscoin.makeitcute',
   appName: 'Make It Cute',
   webDir: 'web',
   backgroundColor: '#fffbea',

@@ -3,7 +3,7 @@
 Everything lives in one GitHub repository.
 - **The website** (also the privacy policy link the stores need) is published free with GitHub Pages.
 - **The Android and iPhone apps** have the whole app built in, so they work offline and don't depend on any website.
-- App ID on both stores: `app.makeitcute`. It can never change after the first upload.
+- App ID on both stores: `com.glasscoin.makeitcute`. It can never change after the first upload.
 - Contact email: info@glasscointech.com
 
 ---
@@ -23,7 +23,7 @@ Everything lives in one GitHub repository.
    `https://ojukwujohn-dev.github.io/make-it-cute/` with the privacy page at `.../privacy.html`.
 
 ## 2. Developer accounts (start now, verification takes a few days)
-- **Google Play:** play.google.com/console, a personal account with your own Google account, US$25 once.
+- **Google Play:** use the existing **Glasscoin Consulting** organisation account (john@glasscointech.com). It's already verified, and organisation accounts don't need the 12-tester closed test.
 - **Apple:** developer.apple.com, enroll as an individual, US$99 a year.
 
 ## 3. Android → Google Play
@@ -51,7 +51,7 @@ Keep the `.jks` file and its password **safe and backed up**. Never commit it (t
    - Ads: No. Data safety: no data collected.
    - Target audience: 9–12. Content rating: answer the questionnaire.
 3. Main store listing: paste the text from `store/store-listing.txt`. Upload `web/icon-512.png`, `store/feature-graphic-1024x500.png` and the `store/screenshot-*.png` files.
-4. Testing → **Closed testing**: upload the .aab and add **12+ testers** (Gmail addresses, Android phones). They must stay opted in for **14 days**, then you can apply for Production.
+4. Testing → **Internal testing**: upload the .aab and try it on family phones. Then go to Production → Create new release, upload the same .aab and send it for review. Organisation accounts can go straight to production.
 
 ## 4. iPhone → App Store (on your Mac)
 You need Xcode (free, from the Mac App Store) and Node.js (nodejs.org, LTS).
