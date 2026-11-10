@@ -11,16 +11,16 @@ Everything lives in one GitHub repository.
 ## 1. Put it on GitHub (once)
 1. Sign in at github.com (or create a free account).
 2. Click **New repository**, name it `make-it-cute`, set it to **Public** (Pages is free for public repos), and don't add a README. Click Create.
-3. Tell Claude your GitHub username, or replace `GITHUB_USERNAME` yourself in `web/index.html` and `store/store-listing.txt`.
+3. Tell Claude your GitHub username, or replace `ojukwujohn-dev` yourself in `web/index.html` and `store/store-listing.txt`.
 4. On your Mac, in Terminal:
    ```
    cd "~/Downloads/Make It Cute/make-it-cute"
-   git remote add origin https://github.com/GITHUB_USERNAME/make-it-cute.git
+   git remote add origin https://github.com/ojukwujohn-dev/make-it-cute.git
    git push -u origin main
    ```
    GitHub will ask you to sign in the first time. GitHub Desktop works too: choose File → Add Local Repository → Publish.
 5. In the repo, go to **Settings → Pages → Source: GitHub Actions**. The "Publish website" action runs, and the site appears at
-   `https://GITHUB_USERNAME.github.io/make-it-cute/` with the privacy page at `.../privacy.html`.
+   `https://ojukwujohn-dev.github.io/make-it-cute/` with the privacy page at `.../privacy.html`.
 
 ## 2. Developer accounts (start now, verification takes a few days)
 - **Google Play:** play.google.com/console, a personal account with your own Google account, US$25 once.

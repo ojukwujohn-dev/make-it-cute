@@ -26,7 +26,7 @@ CATEGORY: Education (or Art & Design)
 TARGET AGE GROUPS: 9-12 (and 13-15 if you want teens too)
 CONTAINS ADS: No
 IN-APP PURCHASES: No
-PRIVACY POLICY URL: https://GITHUB_USERNAME.github.io/make-it-cute/privacy.html
+PRIVACY POLICY URL: https://ojukwujohn-dev.github.io/make-it-cute/privacy.html
 
 DATA SAFETY FORM ANSWERS
 Does your app collect or share any required user data types? → No
