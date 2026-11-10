@@ -1,0 +1,33 @@
+APP NAME (30 max)
+Make It Cute: DIY Crafts
+
+SHORT DESCRIPTION (80 max)
+100 cute DIYs for kids: squishies, crochet, bows, treats, nail art & room decor.
+
+FULL DESCRIPTION
+Charice designed and created Make It Cute when she was 10, with help from her dad. It's a craft app made by a young crafter, for crafters like her. Every tutorial uses simple supplies you probably already have at home.
+
+✦ 100 step-by-step tutorials: slow-rise and paper squishies, crochet, bows and hairstyles, jewelry, sock plushies, bookmarks, no-bake treats, baking, nail art, spa nights, journaling, bedazzling, charms, sleepover kits and room decor.
+✦ Design studio: Squishy Designer, Bracelet Maker, Bookmark Designer, Door Hanger Maker and Paper Duck Dress-Up.
+✦ Printable templates for paper squishies, door hangers and bookmarks.
+✦ "What can I make?" lets you tick what you have and shows crafts you can make right now.
+✦ Room Makeover sets for coquette, cottagecore, Y2K and more.
+✦ Pin crafts, earn "made it" stamps and build a shopping list.
+✦ A private video diary for filming your crafts.
+✦ Read-aloud steps, bigger text, calm mode and a "no sharp stuff" setting.
+
+Safe by design:
+• No ads, no accounts, no chat and no in-app purchases
+• Collects no personal information. Everything stays on your device
+• Grown-up tips and "heads up" safety notes on every craft that needs them
+• Works offline
+
+CATEGORY: Education (or Art & Design)
+TARGET AGE GROUPS: 9-12 (and 13-15 if you want teens too)
+CONTAINS ADS: No
+IN-APP PURCHASES: No
+PRIVACY POLICY URL: https://GITHUB_USERNAME.github.io/make-it-cute/privacy.html
+
+DATA SAFETY FORM ANSWERS
+Does your app collect or share any required user data types? → No
+(Photos/videos stay on device and are never transmitted, so they don't count as "collected".)

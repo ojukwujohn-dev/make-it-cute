@@ -1,0 +1,41 @@
+# Builds the Android app bundle (.aab) for Google Play.
+# Run it from the Actions tab ("Run workflow"). The .aab appears under the run's Artifacts.
+# If the signing secrets are set it is signed and ready to upload; otherwise it's an unsigned test build.
+name: Build Android app
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - run: npm ci
+      - run: npx cap sync android
+      - name: Restore signing key
+        env:
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+        run: |
+          if [ -n "$KEYSTORE_BASE64" ]; then
+            echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/upload.jks"
+            echo "MIC_KEYSTORE_FILE=$RUNNER_TEMP/upload.jks" >> "$GITHUB_ENV"
+          fi
+      - name: Build release bundle
+        working-directory: android
+        env:
+          MIC_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          MIC_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          MIC_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+          MIC_VERSION_CODE: ${{ github.run_number }}
+        run: ./gradlew bundleRelease --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: make-it-cute-android
+          path: android/app/build/outputs/bundle/release/*.aab
